@@ -1,13 +1,15 @@
-# 用css美化hover的underline下划线
-众所周知，a:hover的下划线(underline)非常生硬，尝试下给下划线加个动画？<br>
+## 用css美化hover的underline下划线
+众所周知，a:hover的下划线(underline)非常生硬，尝试给下划线加个动画？<br>
 此项目将underline实现了点击时从中间展开效果。
 
-# 使用方法
-1.引入hover.css或者加入到公共css文件中引入
-2.给需要加入下划线的元素加`hover`类:
+## 使用方法
+1.引入hover.css或者将源码加入到公共css文件中；<br>
+2.给需要加入下划线的元素添加`hover`类:
    ```css
-    <!-- 加入hover类名 -->
     <a href="/" class="hover"></a>
     <p class="hover"></p>
-    ```
-3.好了。
+   ```
+## 注意事项
+1.如果您的源代码已经定义了`a:hover`样式可能会导致双重的下划线，请尝试删除原来定义的`a:hover`样式再试！<br>
+2.必须添加`hover`类，否则动画不会显示！<br>
+3.其他的看注释吧,,,
