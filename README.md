@@ -3,8 +3,8 @@
 此项目将underline实现了点击时从中间展开效果。
 
 ## 文件说明
-1.`hover.css`是自适应的（主要是PC端hover，PE端改成了active）<br>
-2.`hover.min.css`是主要文件（不需要自适应的直接引入这个就行了）
+1.`hover.css`实现了自适应（主要是PC端hover，PE端改成了active）<br>
+2.`hover.min.css`不需要自适应的直接引入这个就行了（默认hover）
 
 ## 使用方法
 1.引入hover.css或者将源码加入到公共css文件中；<br>
