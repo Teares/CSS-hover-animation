@@ -1,0 +1,37 @@
+            .hover {
+                position: relative;
+                text-decoration: none;
+            }
+
+            .hover:before {
+                content: "";
+                position: absolute;
+                left: 50%;
+                bottom: -2px;
+                width: 0;
+                height: 2px;
+                /*   设置underline颜色 */
+                background: white;
+                /*   滑动时的过渡动画 */
+                transition: all .1s;
+                transition-timing-function: ease-in-out;
+                -webkit-transition-timing-function: ease-in-out;
+                /* Safari and Chrome */
+            }
+
+            /* 没有点击时候的样式 */
+            .hover:link {
+                color: white;
+            }
+
+            .hover:hover:before {
+                width: 100%;
+                left: 0;
+                right: 0;
+            }
+
+            /* 点击过后的样式 */
+            .hover:visited {
+                color: white;
+            }
+        }
