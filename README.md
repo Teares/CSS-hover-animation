@@ -4,7 +4,10 @@
 
 ## 使用方法
 1.引入hover.css或者将源码加入到公共css文件中；<br>
-2.给需要加入下划线的元素添加`hover`类:
+2.给需要加入下划线的元素添加`hover`类:<br>
+   ```css
+   class="hover"
+   ```
    ```css
     <a href="/" class="hover"></a>
     <p class="hover"></p>
