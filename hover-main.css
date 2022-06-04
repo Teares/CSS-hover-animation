@@ -13,9 +13,9 @@
                 /*   设置underline颜色 */
                 background: white;
                 /*   滑动时的过渡动画 */
-                transition: all .1s;
-                transition-timing-function: ease-in-out;
-                -webkit-transition-timing-function: ease-in-out;
+                transition: all .3s;
+                transition-timing-function: ease;
+                -webkit-transition-timing-function: ease;
                 /* Safari and Chrome */
             }
 
